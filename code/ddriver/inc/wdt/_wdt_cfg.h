@@ -1,12 +1,6 @@
 #ifndef __WDT_CFG_H__
 #define __WDT_CFG_H__
 
-#ifdef DEF_WDT_CFG
-#define EXTERN_DEF_WDT_CFG
-#else
-#define EXTERN_DEF_WDT_CFG extern
-#endif /* DEF_WDT_CFG */
-
 typedef enum
 {
     WDT_CFG_PRE_WARNING_DISABLE = ((uint32_t)0),
@@ -31,6 +25,6 @@ typedef struct
 {
     wdt_cfg_window_t      window_st;
     wdt_cfg_pre_warning_t pre_warning_en;
-}wdt_cfg_cfg_t;
+}wdt_cfg_t;
 
 #endif /* __WDT_CFG_H__ */

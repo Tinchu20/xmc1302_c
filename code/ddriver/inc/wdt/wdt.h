@@ -1,9 +1,7 @@
 #ifndef __WDT_H__
 #define __WDT_H__
 
-#define EXTERN_DEF_WDT_CFG
-
-#include "wdt_cfg.h"
+#include "_wdt_cfg.h"
 
 #define WDT_VER_MAJOR       ((uint32_t)1)
 #define WDT_VER_MINOR       ((uint32_t)0)
